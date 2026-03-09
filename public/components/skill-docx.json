@@ -12,8 +12,32 @@
       "description": "Use this skill whenever the user wants to create, read, edit, or manipulate Word documents (.docx files). Triggers include: any mention of ",
       "type": "ocx:skill",
       "files": [
-        "skills/skill-docx"
+        "skills/skill-docx/SKILL.md",
+        "skills/skill-docx/scripts/__init__.py",
+        "skills/skill-docx/scripts/accept_changes.py",
+        "skills/skill-docx/scripts/comment.py",
+        "skills/skill-docx/scripts/office/helpers/__init__.py",
+        "skills/skill-docx/scripts/office/helpers/merge_runs.py",
+        "skills/skill-docx/scripts/office/helpers/simplify_redlines.py",
+        "skills/skill-docx/scripts/office/pack.py",
+        "skills/skill-docx/scripts/office/soffice.py",
+        "skills/skill-docx/scripts/office/unpack.py",
+        "skills/skill-docx/scripts/office/validate.py",
+        "skills/skill-docx/scripts/office/validators/__init__.py",
+        "skills/skill-docx/scripts/office/validators/base.py",
+        "skills/skill-docx/scripts/office/validators/docx.py",
+        "skills/skill-docx/scripts/office/validators/pptx.py",
+        "skills/skill-docx/scripts/office/validators/redlining.py",
+        "skills/skill-docx/scripts/render_docx.py",
+        "skills/skill-docx/scripts/templates/comments.xml",
+        "skills/skill-docx/scripts/templates/commentsExtended.xml",
+        "skills/skill-docx/scripts/templates/commentsExtensible.xml",
+        "skills/skill-docx/scripts/templates/commentsIds.xml",
+        "skills/skill-docx/scripts/templates/people.xml"
       ],
+      "dist": {
+        "tarball": "https://master.kortix-registry.pages.dev/dist/skill-docx.zip"
+      },
       "repository": {
         "type": "git",
         "url": "https://github.com/kortix-ai/kortix-ocx-registry.git"

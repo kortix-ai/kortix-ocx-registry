@@ -12,8 +12,15 @@
       "description": "Scientific paper writing in LaTeX -- full pipeline from structure to compiled PDF. TDD-driven: every section is compiled and verified before moving to",
       "type": "ocx:skill",
       "files": [
-        "skills/skill-paper-creator"
+        "skills/skill-paper-creator/SKILL.md",
+        "skills/skill-paper-creator/assets/template.tex",
+        "skills/skill-paper-creator/scripts/compile.sh",
+        "skills/skill-paper-creator/scripts/openalex_to_bibtex.py",
+        "skills/skill-paper-creator/scripts/verify.sh"
       ],
+      "dist": {
+        "tarball": "https://master.kortix-registry.pages.dev/dist/skill-paper-creator.zip"
+      },
       "repository": {
         "type": "git",
         "url": "https://github.com/kortix-ai/kortix-ocx-registry.git"

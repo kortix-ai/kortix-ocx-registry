@@ -12,8 +12,12 @@
       "description": "ElevenLabs audio generation \u2014 text-to-speech, voice cloning, and sound effects. Use this skill any time the agent needs to: convert text to spoken aud",
       "type": "ocx:skill",
       "files": [
-        "skills/skill-elevenlabs"
+        "skills/skill-elevenlabs/SKILL.md",
+        "skills/skill-elevenlabs/scripts/tts.py"
       ],
+      "dist": {
+        "tarball": "https://master.kortix-registry.pages.dev/dist/skill-elevenlabs.zip"
+      },
       "repository": {
         "type": "git",
         "url": "https://github.com/kortix-ai/kortix-ocx-registry.git"

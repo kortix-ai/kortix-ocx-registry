@@ -12,8 +12,11 @@
       "description": "Deep research agent skill. Use when the user needs thorough, scientific, truth-seeking research on any topic -- investigating claims, finding primary ",
       "type": "ocx:skill",
       "files": [
-        "skills/skill-deep-research"
+        "skills/skill-deep-research/SKILL.md"
       ],
+      "dist": {
+        "tarball": "https://master.kortix-registry.pages.dev/dist/skill-deep-research.zip"
+      },
       "repository": {
         "type": "git",
         "url": "https://github.com/kortix-ai/kortix-ocx-registry.git"

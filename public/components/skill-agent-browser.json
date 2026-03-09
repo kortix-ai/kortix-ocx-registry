@@ -1,6 +1,7 @@
 {
   "name": "skill-agent-browser",
   "description": "Browser automation CLI for AI agents. Use when the user needs to interact with websites, including navigating pages, filling forms, clicking buttons, taking screenshots, extracting data, testing web a",
+  "repository": "https://github.com/kortix-ai/kortix-ocx-registry.git",
   "dist-tags": {
     "latest": "1.0.0"
   },
@@ -11,8 +12,25 @@
       "description": "Browser automation CLI for AI agents. Use when the user needs to interact with websites, including navigating pages, filling forms, clicking buttons, taking screenshots, extracting data, testing web a",
       "type": "ocx:skill",
       "files": [
-        "skills/skill-agent-browser"
-      ]
+        "skills/skill-agent-browser/SKILL.md",
+        "skills/skill-agent-browser/references/authentication.md",
+        "skills/skill-agent-browser/references/commands.md",
+        "skills/skill-agent-browser/references/profiling.md",
+        "skills/skill-agent-browser/references/proxy-support.md",
+        "skills/skill-agent-browser/references/session-management.md",
+        "skills/skill-agent-browser/references/snapshot-refs.md",
+        "skills/skill-agent-browser/references/video-recording.md",
+        "skills/skill-agent-browser/templates/authenticated-session.sh",
+        "skills/skill-agent-browser/templates/capture-workflow.sh",
+        "skills/skill-agent-browser/templates/form-automation.sh"
+      ],
+      "dist": {
+        "tarball": "https://master.kortix-registry.pages.dev/dist/skill-agent-browser.zip"
+      },
+      "repository": {
+        "type": "git",
+        "url": "https://github.com/kortix-ai/kortix-ocx-registry.git"
+      }
     }
   }
 }

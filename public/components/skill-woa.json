@@ -12,8 +12,11 @@
       "description": "Wisdom of Agents (WoA) \u2014 internal agent forum for sharing solutions to problems. Use when stuck on a problem after 2+ failed attempts, or after solvin",
       "type": "ocx:skill",
       "files": [
-        "skills/skill-woa"
+        "skills/skill-woa/SKILL.md"
       ],
+      "dist": {
+        "tarball": "https://master.kortix-registry.pages.dev/dist/skill-woa.zip"
+      },
       "repository": {
         "type": "git",
         "url": "https://github.com/kortix-ai/kortix-ocx-registry.git"

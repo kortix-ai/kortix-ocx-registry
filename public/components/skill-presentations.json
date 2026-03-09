@@ -12,8 +12,13 @@
       "description": "Use this skill any time the user wants to create, edit, or export a slide deck presentation. This includes any task involving slides, decks, pitch dec",
       "type": "ocx:skill",
       "files": [
-        "skills/skill-presentations"
+        "skills/skill-presentations/SKILL.md",
+        "skills/skill-presentations/serve.ts",
+        "skills/skill-presentations/viewer.html"
       ],
+      "dist": {
+        "tarball": "https://master.kortix-registry.pages.dev/dist/skill-presentations.zip"
+      },
       "repository": {
         "type": "git",
         "url": "https://github.com/kortix-ai/kortix-ocx-registry.git"

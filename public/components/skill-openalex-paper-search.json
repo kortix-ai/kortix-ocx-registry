@@ -12,8 +12,11 @@
       "description": "Academic paper search powered by OpenAlex -- the free, open catalog of 240M+ scholarly works. Use when the user needs to find academic papers, researc",
       "type": "ocx:skill",
       "files": [
-        "skills/skill-openalex-paper-search"
+        "skills/skill-openalex-paper-search/SKILL.md"
       ],
+      "dist": {
+        "tarball": "https://master.kortix-registry.pages.dev/dist/skill-openalex-paper-search.zip"
+      },
       "repository": {
         "type": "git",
         "url": "https://github.com/kortix-ai/kortix-ocx-registry.git"

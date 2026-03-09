@@ -12,8 +12,12 @@
       "description": "Free domain research and availability checking. No API keys or credentials required. Uses RDAP (1195+ TLDs) with whois CLI fallback for universal cove",
       "type": "ocx:skill",
       "files": [
-        "skills/skill-domain-research"
+        "skills/skill-domain-research/SKILL.md",
+        "skills/skill-domain-research/scripts/domain-lookup.py"
       ],
+      "dist": {
+        "tarball": "https://master.kortix-registry.pages.dev/dist/skill-domain-research.zip"
+      },
       "repository": {
         "type": "git",
         "url": "https://github.com/kortix-ai/kortix-ocx-registry.git"

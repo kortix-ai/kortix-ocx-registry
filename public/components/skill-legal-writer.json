@@ -12,8 +12,16 @@
       "description": "Legal document drafting -- contracts, memos, briefs, complaints, demand letters, opinions, discovery, settlements, ToS, privacy policies. Full pipelin",
       "type": "ocx:skill",
       "files": [
-        "skills/skill-legal-writer"
+        "skills/skill-legal-writer/SKILL.md",
+        "skills/skill-legal-writer/references/bluebook.md",
+        "skills/skill-legal-writer/references/document-types.md",
+        "skills/skill-legal-writer/scripts/courtlistener.py",
+        "skills/skill-legal-writer/scripts/ecfr_lookup.py",
+        "skills/skill-legal-writer/scripts/verify-legal.py"
       ],
+      "dist": {
+        "tarball": "https://master.kortix-registry.pages.dev/dist/skill-legal-writer.zip"
+      },
       "repository": {
         "type": "git",
         "url": "https://github.com/kortix-ai/kortix-ocx-registry.git"

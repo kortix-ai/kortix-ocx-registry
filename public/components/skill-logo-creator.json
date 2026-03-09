@@ -12,8 +12,15 @@
       "description": "Create professional logos through an intelligent, iterative design process. Use this skill when the user wants to create a logo, icon, favicon, brand ",
       "type": "ocx:skill",
       "files": [
-        "skills/skill-logo-creator"
+        "skills/skill-logo-creator/SKILL.md",
+        "skills/skill-logo-creator/references/prompt-patterns.md",
+        "skills/skill-logo-creator/scripts/compose_logo.py",
+        "skills/skill-logo-creator/scripts/create_logo_sheet.py",
+        "skills/skill-logo-creator/scripts/remove_bg.py"
       ],
+      "dist": {
+        "tarball": "https://master.kortix-registry.pages.dev/dist/skill-logo-creator.zip"
+      },
       "repository": {
         "type": "git",
         "url": "https://github.com/kortix-ai/kortix-ocx-registry.git"

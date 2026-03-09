@@ -12,8 +12,11 @@
       "description": "Full-stack web development with Convex + Vite React. TDD-driven, strict TypeScript, fully autonomous. Covers scaffolding, schema design, backend funct",
       "type": "ocx:skill",
       "files": [
-        "skills/skill-fullstack-vite-convex"
+        "skills/skill-fullstack-vite-convex/SKILL.md"
       ],
+      "dist": {
+        "tarball": "https://master.kortix-registry.pages.dev/dist/skill-fullstack-vite-convex.zip"
+      },
       "repository": {
         "type": "git",
         "url": "https://github.com/kortix-ai/kortix-ocx-registry.git"

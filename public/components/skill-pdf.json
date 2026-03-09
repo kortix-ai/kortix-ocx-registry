@@ -12,8 +12,21 @@
       "description": "Use this skill whenever the user wants to do anything with PDF files. This includes reading or extracting text/tables from PDFs, combining or merging ",
       "type": "ocx:skill",
       "files": [
-        "skills/skill-pdf"
+        "skills/skill-pdf/SKILL.md",
+        "skills/skill-pdf/forms.md",
+        "skills/skill-pdf/reference.md",
+        "skills/skill-pdf/scripts/check_bounding_boxes.py",
+        "skills/skill-pdf/scripts/check_fillable_fields.py",
+        "skills/skill-pdf/scripts/convert_pdf_to_images.py",
+        "skills/skill-pdf/scripts/create_validation_image.py",
+        "skills/skill-pdf/scripts/extract_form_field_info.py",
+        "skills/skill-pdf/scripts/extract_form_structure.py",
+        "skills/skill-pdf/scripts/fill_fillable_fields.py",
+        "skills/skill-pdf/scripts/fill_pdf_form_with_annotations.py"
       ],
+      "dist": {
+        "tarball": "https://master.kortix-registry.pages.dev/dist/skill-pdf.zip"
+      },
       "repository": {
         "type": "git",
         "url": "https://github.com/kortix-ai/kortix-ocx-registry.git"

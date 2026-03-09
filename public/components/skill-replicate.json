@@ -1,6 +1,7 @@
 {
   "name": "skill-replicate",
   "description": "Discover, compare, and run AI models using Replicate's API",
+  "repository": "https://github.com/kortix-ai/kortix-ocx-registry.git",
   "dist-tags": {
     "latest": "1.0.0"
   },
@@ -11,8 +12,15 @@
       "description": "Discover, compare, and run AI models using Replicate's API",
       "type": "ocx:skill",
       "files": [
-        "skills/skill-replicate"
-      ]
+        "skills/skill-replicate/SKILL.md"
+      ],
+      "dist": {
+        "tarball": "https://master.kortix-registry.pages.dev/dist/skill-replicate.zip"
+      },
+      "repository": {
+        "type": "git",
+        "url": "https://github.com/kortix-ai/kortix-ocx-registry.git"
+      }
     }
   }
 }
