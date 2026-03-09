@@ -1,0 +1,233 @@
+{
+  "$schema": "https://registry.kortix.com/schema.json",
+  "version": "1.0.0",
+  "name": "kortix-ocx-registry",
+  "description": "Kortix Marketplace - Skills for Kortix AI Agents. Tools are bundled in @kortix/kortix-oc core package.",
+  "updated": "2026-03-09",
+  "registryUrl": "https://registry.kortix.com",
+  "repository": "https://github.com/kortix-ai/kortix-ocx-registry",
+  "note": "Tools (web-search, show, etc.) are included in @kortix/kortix-oc core package. This registry contains optional installable skills.",
+  "skills": [
+    {
+      "name": "skill-agent-browser",
+      "displayName": "Browser Automation",
+      "description": "Browser automation CLI for AI agents. Use when the user needs to interact with websites, navigate pages, fill forms, click buttons, take screenshots, extract data, or test web apps.",
+      "author": "kortix",
+      "tags": ["automation", "browser", "testing", "web"],
+      "path": "skills/skill-agent-browser"
+    },
+    {
+      "name": "skill-agent-builder",
+      "displayName": "Agent Builder",
+      "description": "Build and configure AI agents using various SDKs and frameworks.",
+      "author": "kortix",
+      "tags": ["agents", "development", "sdk"],
+      "path": "skills/skill-agent-builder"
+    },
+    {
+      "name": "skill-deep-research",
+      "displayName": "Deep Research",
+      "description": "Comprehensive research agent for investigating topics, finding sources, and synthesizing findings.",
+      "author": "kortix",
+      "tags": ["research", "analysis", "investigation"],
+      "path": "skills/skill-deep-research"
+    },
+    {
+      "name": "skill-docx",
+      "displayName": "Word Documents",
+      "description": "Create, read, edit, and manipulate Word documents (.docx files).",
+      "author": "kortix",
+      "tags": ["documents", "word", "office"],
+      "path": "skills/skill-docx"
+    },
+    {
+      "name": "skill-domain-research",
+      "displayName": "Domain Research",
+      "description": "Free domain research and availability checking. Check if domains are available, search keywords, perform WHOIS lookups.",
+      "author": "kortix",
+      "tags": ["domains", "whois", "research"],
+      "path": "skills/skill-domain-research"
+    },
+    {
+      "name": "skill-elevenlabs",
+      "displayName": "ElevenLabs Audio",
+      "description": "Text-to-speech, voice cloning, and sound effects using ElevenLabs API.",
+      "author": "kortix",
+      "tags": ["audio", "tts", "voice", "elevenlabs"],
+      "path": "skills/skill-elevenlabs"
+    },
+    {
+      "name": "skill-email",
+      "displayName": "Email",
+      "description": "Send and receive email via IMAP/SMTP using curl. Works with any email provider.",
+      "author": "kortix",
+      "tags": ["email", "imap", "smtp", "communication"],
+      "path": "skills/skill-email"
+    },
+    {
+      "name": "skill-fullstack-vite-convex",
+      "displayName": "Full-Stack Vite + Convex",
+      "description": "Full-stack web development with Convex + Vite React. TDD-driven, strict TypeScript, fully autonomous.",
+      "author": "kortix",
+      "tags": ["fullstack", "react", "convex", "vite"],
+      "path": "skills/skill-fullstack-vite-convex"
+    },
+    {
+      "name": "skill-legal-writer",
+      "displayName": "Legal Writer",
+      "description": "Legal document drafting - contracts, memos, briefs, complaints, demand letters, ToS, privacy policies.",
+      "author": "kortix",
+      "tags": ["legal", "documents", "contracts"],
+      "path": "skills/skill-legal-writer"
+    },
+    {
+      "name": "skill-logo-creator",
+      "displayName": "Logo Creator",
+      "description": "Create professional logos through an intelligent, iterative design process.",
+      "author": "kortix",
+      "tags": ["logo", "design", "branding"],
+      "path": "skills/skill-logo-creator"
+    },
+    {
+      "name": "skill-openalex-paper-search",
+      "displayName": "Academic Paper Search",
+      "description": "Academic paper search powered by OpenAlex - the free, open catalog of 240M+ scholarly works.",
+      "author": "kortix",
+      "tags": ["academic", "papers", "research", "openalex"],
+      "path": "skills/skill-openalex-paper-search"
+    },
+    {
+      "name": "skill-paper-creator",
+      "displayName": "Paper Creator",
+      "description": "Scientific paper writing in LaTeX - full pipeline from structure to compiled PDF.",
+      "author": "kortix",
+      "tags": ["academic", "papers", "latex", "writing"],
+      "path": "skills/skill-paper-creator"
+    },
+    {
+      "name": "skill-pdf",
+      "displayName": "PDF Processing",
+      "description": "Read, extract, merge, split, rotate, watermark, create, fill forms, encrypt/decrypt PDFs.",
+      "author": "kortix",
+      "tags": ["pdf", "documents", "office"],
+      "path": "skills/skill-pdf"
+    },
+    {
+      "name": "skill-presentations",
+      "displayName": "Presentations",
+      "description": "Create, edit, and export HTML slide deck presentations (1920x1080).",
+      "author": "kortix",
+      "tags": ["presentations", "slides", "deck"],
+      "path": "skills/skill-presentations"
+    },
+    {
+      "name": "skill-remotion",
+      "displayName": "Remotion Video",
+      "description": "Video creation in React using Remotion. Supports compositions, animations, audio, captions, 3D, transitions.",
+      "author": "kortix",
+      "tags": ["video", "remotion", "animation", "media"],
+      "path": "skills/skill-remotion"
+    },
+    {
+      "name": "skill-replicate",
+      "displayName": "Replicate AI",
+      "description": "Discover, compare, and run AI models using Replicate's API.",
+      "author": "kortix",
+      "tags": ["ai", "replicate", "models", "inference"],
+      "path": "skills/skill-replicate"
+    },
+    {
+      "name": "skill-woa",
+      "displayName": "Wisdom of Agents",
+      "description": "Internal agent forum for sharing solutions to problems. Use when stuck on a problem or solved a hard problem worth sharing.",
+      "author": "kortix",
+      "tags": ["knowledge", "agents", "forum", "solutions"],
+      "path": "skills/skill-woa"
+    },
+    {
+      "name": "skill-xlsx",
+      "displayName": "Spreadsheets",
+      "description": "Open, read, edit, fix, create spreadsheets (.xlsx, .xlsm, .csv, .tsv). Data cleaning, formatting, charting.",
+      "author": "kortix",
+      "tags": ["spreadsheet", "excel", "office", "data"],
+      "path": "skills/skill-xlsx"
+    }
+  ],
+  "tools": [
+    {
+      "name": "web-search",
+      "description": "Web search using Tavily API",
+      "path": "tools/web-search.ts"
+    },
+    {
+      "name": "scrape-webpage",
+      "description": "Fetch and extract content from web pages using Firecrawl",
+      "path": "tools/scrape-webpage.ts"
+    },
+    {
+      "name": "image-search",
+      "description": "Search for images using Serper Google Images API",
+      "path": "tools/image-search.ts"
+    },
+    {
+      "name": "show",
+      "description": "Display outputs and attachments to the user (images, files, URLs, text, code, etc.)",
+      "path": "tools/show.ts"
+    },
+    {
+      "name": "presentation-gen",
+      "description": "Create, manage, validate, preview, and export HTML presentation slides",
+      "path": "tools/presentation-gen.ts"
+    },
+    {
+      "name": "cron-triggers",
+      "description": "Manage scheduled cron triggers inside the sandbox",
+      "path": "tools/cron-triggers.ts"
+    },
+    {
+      "name": "integration-list",
+      "description": "List connected third-party integrations (OAuth)",
+      "path": "tools/integration-list.ts"
+    },
+    {
+      "name": "integration-search",
+      "description": "Search for available third-party apps to connect via OAuth",
+      "path": "tools/integration-search.ts"
+    },
+    {
+      "name": "integration-connect",
+      "description": "Connect a third-party app (OAuth) so the agent can use it",
+      "path": "tools/integration-connect.ts"
+    },
+    {
+      "name": "integration-actions",
+      "description": "List available actions for a connected integration app",
+      "path": "tools/integration-actions.ts"
+    },
+    {
+      "name": "integration-request",
+      "description": "Make an authenticated HTTP request to a third-party API",
+      "path": "tools/integration-request.ts"
+    },
+    {
+      "name": "integration-run",
+      "description": "Execute a Pipedream action for a connected integration",
+      "path": "tools/integration-run.ts"
+    },
+    {
+      "name": "integration-exec",
+      "description": "Execute Node.js code that calls an authenticated third-party API",
+      "path": "tools/integration-exec.ts"
+    },
+    {
+      "name": "woa-create",
+      "description": "Post to the internal agent forum (WoA)",
+      "path": "tools/woa-create.ts"
+    },
+    {
+      "name": "woa-find",
+      "description": "Search the internal agent forum (WoA) for existing solutions",
+      "path": "tools/woa-find.ts"
+    }
+  ]
+}

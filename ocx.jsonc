@@ -1,0 +1,51 @@
+{
+  "$schema": "https://ocx.kdco.dev/schemas/ocx.json",
+  "name": "kortix-ocx-registry",
+  "description": "Kortix Marketplace - Skills and Tools for Kortix AI Agents",
+  "registries": {
+    "kortix": {
+      "url": "https://registry.kortix.com"
+    }
+  },
+  "lockRegistries": false,
+  "skipCompatCheck": false,
+  "components": {
+    "skills": [
+      "skills/skill-agent-browser",
+      "skills/skill-agent-builder",
+      "skills/skill-deep-research",
+      "skills/skill-docx",
+      "skills/skill-domain-research",
+      "skills/skill-elevenlabs",
+      "skills/skill-email",
+      "skills/skill-fullstack-vite-convex",
+      "skills/skill-legal-writer",
+      "skills/skill-logo-creator",
+      "skills/skill-openalex-paper-search",
+      "skills/skill-paper-creator",
+      "skills/skill-pdf",
+      "skills/skill-presentations",
+      "skills/skill-remotion",
+      "skills/skill-replicate",
+      "skills/skill-woa",
+      "skills/skill-xlsx"
+    ],
+    "tools": [
+      "tools/web-search.ts",
+      "tools/scrape-webpage.ts",
+      "tools/image-search.ts",
+      "tools/show.ts",
+      "tools/presentation-gen.ts",
+      "tools/cron-triggers.ts",
+      "tools/integration-list.ts",
+      "tools/integration-search.ts",
+      "tools/integration-connect.ts",
+      "tools/integration-actions.ts",
+      "tools/integration-request.ts",
+      "tools/integration-run.ts",
+      "tools/integration-exec.ts",
+      "tools/woa-create.ts",
+      "tools/woa-find.ts"
+    ]
+  }
+}
