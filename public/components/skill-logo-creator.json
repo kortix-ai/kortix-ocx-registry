@@ -1,0 +1,18 @@
+{
+  "name": "skill-logo-creator",
+  "description": "Create professional logos through an intelligent, iterative design process. Use this skill when the user wants to create a logo, icon, favicon, brand mark, wordmark, or any visual brand identity mark.",
+  "dist-tags": {
+    "latest": "1.0.0"
+  },
+  "versions": {
+    "1.0.0": {
+      "name": "skill-logo-creator",
+      "version": "1.0.0",
+      "description": "Create professional logos through an intelligent, iterative design process. Use this skill when the user wants to create a logo, icon, favicon, brand mark, wordmark, or any visual brand identity mark.",
+      "type": "ocx:skill",
+      "files": [
+        "skills/skill-logo-creator"
+      ]
+    }
+  }
+}

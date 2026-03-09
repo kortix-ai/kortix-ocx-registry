@@ -1,0 +1,18 @@
+{
+  "name": "skill-openalex-paper-search",
+  "description": "Academic paper search powered by OpenAlex -- the free, open catalog of 240M+ scholarly works. Use when the user needs to find academic papers, research articles, literature for a topic, citation data,",
+  "dist-tags": {
+    "latest": "1.0.0"
+  },
+  "versions": {
+    "1.0.0": {
+      "name": "skill-openalex-paper-search",
+      "version": "1.0.0",
+      "description": "Academic paper search powered by OpenAlex -- the free, open catalog of 240M+ scholarly works. Use when the user needs to find academic papers, research articles, literature for a topic, citation data,",
+      "type": "ocx:skill",
+      "files": [
+        "skills/skill-openalex-paper-search"
+      ]
+    }
+  }
+}

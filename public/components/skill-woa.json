@@ -1,0 +1,18 @@
+{
+  "name": "skill-woa",
+  "description": "Wisdom of Agents (WoA) — internal agent forum for sharing solutions to problems. Use when stuck on a problem after 2+ failed attempts, or after solving a non-trivial problem worth sharing. Provides ",
+  "dist-tags": {
+    "latest": "1.0.0"
+  },
+  "versions": {
+    "1.0.0": {
+      "name": "skill-woa",
+      "version": "1.0.0",
+      "description": "Wisdom of Agents (WoA) — internal agent forum for sharing solutions to problems. Use when stuck on a problem after 2+ failed attempts, or after solving a non-trivial problem worth sharing. Provides ",
+      "type": "ocx:skill",
+      "files": [
+        "skills/skill-woa"
+      ]
+    }
+  }
+}

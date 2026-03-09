@@ -1,0 +1,18 @@
+{
+  "name": "skill-paper-creator",
+  "description": "Scientific paper writing in LaTeX -- full pipeline from structure to compiled PDF. TDD-driven: every section is compiled and verified before moving to the next. Covers project scaffolding, citation ma",
+  "dist-tags": {
+    "latest": "1.0.0"
+  },
+  "versions": {
+    "1.0.0": {
+      "name": "skill-paper-creator",
+      "version": "1.0.0",
+      "description": "Scientific paper writing in LaTeX -- full pipeline from structure to compiled PDF. TDD-driven: every section is compiled and verified before moving to the next. Covers project scaffolding, citation ma",
+      "type": "ocx:skill",
+      "files": [
+        "skills/skill-paper-creator"
+      ]
+    }
+  }
+}

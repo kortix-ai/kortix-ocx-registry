@@ -1,0 +1,18 @@
+{
+  "name": "skill-legal-writer",
+  "description": "Legal document drafting -- contracts, memos, briefs, complaints, demand letters, opinions, discovery, settlements, ToS, privacy policies. Full pipeline: document structure, per-section writing, Bluebo",
+  "dist-tags": {
+    "latest": "1.0.0"
+  },
+  "versions": {
+    "1.0.0": {
+      "name": "skill-legal-writer",
+      "version": "1.0.0",
+      "description": "Legal document drafting -- contracts, memos, briefs, complaints, demand letters, opinions, discovery, settlements, ToS, privacy policies. Full pipeline: document structure, per-section writing, Bluebo",
+      "type": "ocx:skill",
+      "files": [
+        "skills/skill-legal-writer"
+      ]
+    }
+  }
+}

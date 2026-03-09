@@ -1,0 +1,18 @@
+{
+  "name": "skill-elevenlabs",
+  "description": "ElevenLabs audio generation — text-to-speech, voice cloning, and sound effects. Use this skill any time the agent needs to: convert text to spoken audio, narrate documents or content, generate voice",
+  "dist-tags": {
+    "latest": "1.0.0"
+  },
+  "versions": {
+    "1.0.0": {
+      "name": "skill-elevenlabs",
+      "version": "1.0.0",
+      "description": "ElevenLabs audio generation — text-to-speech, voice cloning, and sound effects. Use this skill any time the agent needs to: convert text to spoken audio, narrate documents or content, generate voice",
+      "type": "ocx:skill",
+      "files": [
+        "skills/skill-elevenlabs"
+      ]
+    }
+  }
+}

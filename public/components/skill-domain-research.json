@@ -1,0 +1,18 @@
+{
+  "name": "skill-domain-research",
+  "description": "Free domain research and availability checking. No API keys or credentials required. Uses RDAP (1195+ TLDs) with whois CLI fallback for universal coverage. Checks if domains are available, searches ke",
+  "dist-tags": {
+    "latest": "1.0.0"
+  },
+  "versions": {
+    "1.0.0": {
+      "name": "skill-domain-research",
+      "version": "1.0.0",
+      "description": "Free domain research and availability checking. No API keys or credentials required. Uses RDAP (1195+ TLDs) with whois CLI fallback for universal coverage. Checks if domains are available, searches ke",
+      "type": "ocx:skill",
+      "files": [
+        "skills/skill-domain-research"
+      ]
+    }
+  }
+}
