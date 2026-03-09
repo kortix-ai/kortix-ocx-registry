@@ -1,10 +1,10 @@
 {
   "$schema": "https://ocx.kdco.dev/schemas/ocx.json",
   "name": "kortix-ocx-registry",
-  "description": "Kortix Marketplace - Skills for Kortix AI Agents",
+  "description": "Kortix Marketplace - Skills and Tools for Kortix AI Agents",
   "registries": {
     "kortix": {
-      "url": "https://master.kortix-registry.pages.dev"
+      "url": "https://registry.kortix.com"
     }
   },
   "lockRegistries": false,
@@ -29,6 +29,23 @@
       "skills/skill-replicate",
       "skills/skill-woa",
       "skills/skill-xlsx"
+    ],
+    "tools": [
+      "tools/web-search.ts",
+      "tools/scrape-webpage.ts",
+      "tools/image-search.ts",
+      "tools/show.ts",
+      "tools/presentation-gen.ts",
+      "tools/cron-triggers.ts",
+      "tools/integration-list.ts",
+      "tools/integration-search.ts",
+      "tools/integration-connect.ts",
+      "tools/integration-actions.ts",
+      "tools/integration-request.ts",
+      "tools/integration-run.ts",
+      "tools/integration-exec.ts",
+      "tools/woa-create.ts",
+      "tools/woa-find.ts"
     ]
   }
 }
