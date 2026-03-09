@@ -1,6 +1,7 @@
 {
   "name": "skill-remotion",
-  "description": "Best practices for Remotion — video creation in React. Use when the agent needs to work with Remotion code: compositions, animations, audio, captions, 3D, transitions, text effects, charts, GIFs, Lo",
+  "description": "Best practices for Remotion \u2014 video creation in React. Use when the agent needs to work with Remotion code: compositions, animations, audio, captions,",
+  "repository": "https://github.com/kortix-ai/kortix-ocx-registry.git",
   "dist-tags": {
     "latest": "1.0.0"
   },
@@ -8,11 +9,15 @@
     "1.0.0": {
       "name": "skill-remotion",
       "version": "1.0.0",
-      "description": "Best practices for Remotion — video creation in React. Use when the agent needs to work with Remotion code: compositions, animations, audio, captions, 3D, transitions, text effects, charts, GIFs, Lo",
+      "description": "Best practices for Remotion \u2014 video creation in React. Use when the agent needs to work with Remotion code: compositions, animations, audio, captions,",
       "type": "ocx:skill",
       "files": [
         "skills/skill-remotion"
-      ]
+      ],
+      "repository": {
+        "type": "git",
+        "url": "https://github.com/kortix-ai/kortix-ocx-registry.git"
+      }
     }
   }
 }

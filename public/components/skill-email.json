@@ -1,6 +1,7 @@
 {
   "name": "skill-email",
-  "description": "Send and receive email via IMAP/SMTP using curl. Works with any email provider. By default uses the agent's own inbox configured via KORTIX_AGENT_EMAIL_INBOX_* env vars, but can target any SMTP/IMAP s",
+  "description": "Send and receive email via IMAP/SMTP using curl. Works with any email provider. By default uses the agent's own inbox configured via KORTIX_AGENT_EMAI",
+  "repository": "https://github.com/kortix-ai/kortix-ocx-registry.git",
   "dist-tags": {
     "latest": "1.0.0"
   },
@@ -8,11 +9,15 @@
     "1.0.0": {
       "name": "skill-email",
       "version": "1.0.0",
-      "description": "Send and receive email via IMAP/SMTP using curl. Works with any email provider. By default uses the agent's own inbox configured via KORTIX_AGENT_EMAIL_INBOX_* env vars, but can target any SMTP/IMAP s",
+      "description": "Send and receive email via IMAP/SMTP using curl. Works with any email provider. By default uses the agent's own inbox configured via KORTIX_AGENT_EMAI",
       "type": "ocx:skill",
       "files": [
         "skills/skill-email"
-      ]
+      ],
+      "repository": {
+        "type": "git",
+        "url": "https://github.com/kortix-ai/kortix-ocx-registry.git"
+      }
     }
   }
 }

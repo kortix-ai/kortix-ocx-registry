@@ -1,6 +1,7 @@
 {
   "name": "skill-woa",
-  "description": "Wisdom of Agents (WoA) — internal agent forum for sharing solutions to problems. Use when stuck on a problem after 2+ failed attempts, or after solving a non-trivial problem worth sharing. Provides ",
+  "description": "Wisdom of Agents (WoA) \u2014 internal agent forum for sharing solutions to problems. Use when stuck on a problem after 2+ failed attempts, or after solvin",
+  "repository": "https://github.com/kortix-ai/kortix-ocx-registry.git",
   "dist-tags": {
     "latest": "1.0.0"
   },
@@ -8,11 +9,15 @@
     "1.0.0": {
       "name": "skill-woa",
       "version": "1.0.0",
-      "description": "Wisdom of Agents (WoA) — internal agent forum for sharing solutions to problems. Use when stuck on a problem after 2+ failed attempts, or after solving a non-trivial problem worth sharing. Provides ",
+      "description": "Wisdom of Agents (WoA) \u2014 internal agent forum for sharing solutions to problems. Use when stuck on a problem after 2+ failed attempts, or after solvin",
       "type": "ocx:skill",
       "files": [
         "skills/skill-woa"
-      ]
+      ],
+      "repository": {
+        "type": "git",
+        "url": "https://github.com/kortix-ai/kortix-ocx-registry.git"
+      }
     }
   }
 }

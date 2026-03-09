@@ -1,6 +1,7 @@
 {
   "name": "skill-openalex-paper-search",
-  "description": "Academic paper search powered by OpenAlex -- the free, open catalog of 240M+ scholarly works. Use when the user needs to find academic papers, research articles, literature for a topic, citation data,",
+  "description": "Academic paper search powered by OpenAlex -- the free, open catalog of 240M+ scholarly works. Use when the user needs to find academic papers, researc",
+  "repository": "https://github.com/kortix-ai/kortix-ocx-registry.git",
   "dist-tags": {
     "latest": "1.0.0"
   },
@@ -8,11 +9,15 @@
     "1.0.0": {
       "name": "skill-openalex-paper-search",
       "version": "1.0.0",
-      "description": "Academic paper search powered by OpenAlex -- the free, open catalog of 240M+ scholarly works. Use when the user needs to find academic papers, research articles, literature for a topic, citation data,",
+      "description": "Academic paper search powered by OpenAlex -- the free, open catalog of 240M+ scholarly works. Use when the user needs to find academic papers, researc",
       "type": "ocx:skill",
       "files": [
         "skills/skill-openalex-paper-search"
-      ]
+      ],
+      "repository": {
+        "type": "git",
+        "url": "https://github.com/kortix-ai/kortix-ocx-registry.git"
+      }
     }
   }
 }

@@ -1,6 +1,7 @@
 {
   "name": "skill-logo-creator",
-  "description": "Create professional logos through an intelligent, iterative design process. Use this skill when the user wants to create a logo, icon, favicon, brand mark, wordmark, or any visual brand identity mark.",
+  "description": "Create professional logos through an intelligent, iterative design process. Use this skill when the user wants to create a logo, icon, favicon, brand ",
+  "repository": "https://github.com/kortix-ai/kortix-ocx-registry.git",
   "dist-tags": {
     "latest": "1.0.0"
   },
@@ -8,11 +9,15 @@
     "1.0.0": {
       "name": "skill-logo-creator",
       "version": "1.0.0",
-      "description": "Create professional logos through an intelligent, iterative design process. Use this skill when the user wants to create a logo, icon, favicon, brand mark, wordmark, or any visual brand identity mark.",
+      "description": "Create professional logos through an intelligent, iterative design process. Use this skill when the user wants to create a logo, icon, favicon, brand ",
       "type": "ocx:skill",
       "files": [
         "skills/skill-logo-creator"
-      ]
+      ],
+      "repository": {
+        "type": "git",
+        "url": "https://github.com/kortix-ai/kortix-ocx-registry.git"
+      }
     }
   }
 }

@@ -1,6 +1,7 @@
 {
   "name": "skill-legal-writer",
-  "description": "Legal document drafting -- contracts, memos, briefs, complaints, demand letters, opinions, discovery, settlements, ToS, privacy policies. Full pipeline: document structure, per-section writing, Bluebo",
+  "description": "Legal document drafting -- contracts, memos, briefs, complaints, demand letters, opinions, discovery, settlements, ToS, privacy policies. Full pipelin",
+  "repository": "https://github.com/kortix-ai/kortix-ocx-registry.git",
   "dist-tags": {
     "latest": "1.0.0"
   },
@@ -8,11 +9,15 @@
     "1.0.0": {
       "name": "skill-legal-writer",
       "version": "1.0.0",
-      "description": "Legal document drafting -- contracts, memos, briefs, complaints, demand letters, opinions, discovery, settlements, ToS, privacy policies. Full pipeline: document structure, per-section writing, Bluebo",
+      "description": "Legal document drafting -- contracts, memos, briefs, complaints, demand letters, opinions, discovery, settlements, ToS, privacy policies. Full pipelin",
       "type": "ocx:skill",
       "files": [
         "skills/skill-legal-writer"
-      ]
+      ],
+      "repository": {
+        "type": "git",
+        "url": "https://github.com/kortix-ai/kortix-ocx-registry.git"
+      }
     }
   }
 }

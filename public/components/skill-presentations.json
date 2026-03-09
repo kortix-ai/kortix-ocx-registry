@@ -1,6 +1,7 @@
 {
   "name": "skill-presentations",
-  "description": "Use this skill any time the user wants to create, edit, or export a slide deck presentation. This includes any task involving slides, decks, pitch decks, keynotes, or visual presentations. Trigger whe",
+  "description": "Use this skill any time the user wants to create, edit, or export a slide deck presentation. This includes any task involving slides, decks, pitch dec",
+  "repository": "https://github.com/kortix-ai/kortix-ocx-registry.git",
   "dist-tags": {
     "latest": "1.0.0"
   },
@@ -8,11 +9,15 @@
     "1.0.0": {
       "name": "skill-presentations",
       "version": "1.0.0",
-      "description": "Use this skill any time the user wants to create, edit, or export a slide deck presentation. This includes any task involving slides, decks, pitch decks, keynotes, or visual presentations. Trigger whe",
+      "description": "Use this skill any time the user wants to create, edit, or export a slide deck presentation. This includes any task involving slides, decks, pitch dec",
       "type": "ocx:skill",
       "files": [
         "skills/skill-presentations"
-      ]
+      ],
+      "repository": {
+        "type": "git",
+        "url": "https://github.com/kortix-ai/kortix-ocx-registry.git"
+      }
     }
   }
 }

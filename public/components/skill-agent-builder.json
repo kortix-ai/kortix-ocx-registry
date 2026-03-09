@@ -1,6 +1,7 @@
 {
   "name": "skill-agent-builder",
-  "description": "Agent building router skill. Use for requests like 'build me an ai agent'. Clarifies two targets: (1) internal OpenCode/Kortix agent building, or (2) external standalone agent service using SDKs/APIs ",
+  "description": "Agent building router skill. Use for requests like 'build me an ai agent'. Clarifies two targets: (1) internal OpenCode/Kortix agent building, or (2) ",
+  "repository": "https://github.com/kortix-ai/kortix-ocx-registry.git",
   "dist-tags": {
     "latest": "1.0.0"
   },
@@ -8,11 +9,15 @@
     "1.0.0": {
       "name": "skill-agent-builder",
       "version": "1.0.0",
-      "description": "Agent building router skill. Use for requests like 'build me an ai agent'. Clarifies two targets: (1) internal OpenCode/Kortix agent building, or (2) external standalone agent service using SDKs/APIs ",
+      "description": "Agent building router skill. Use for requests like 'build me an ai agent'. Clarifies two targets: (1) internal OpenCode/Kortix agent building, or (2) ",
       "type": "ocx:skill",
       "files": [
         "skills/skill-agent-builder"
-      ]
+      ],
+      "repository": {
+        "type": "git",
+        "url": "https://github.com/kortix-ai/kortix-ocx-registry.git"
+      }
     }
   }
 }

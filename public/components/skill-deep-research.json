@@ -1,6 +1,7 @@
 {
   "name": "skill-deep-research",
-  "description": "Deep research agent skill. Use when the user needs thorough, scientific, truth-seeking research on any topic -- investigating claims, finding primary sources, synthesizing evidence, producing cited re",
+  "description": "Deep research agent skill. Use when the user needs thorough, scientific, truth-seeking research on any topic -- investigating claims, finding primary ",
+  "repository": "https://github.com/kortix-ai/kortix-ocx-registry.git",
   "dist-tags": {
     "latest": "1.0.0"
   },
@@ -8,11 +9,15 @@
     "1.0.0": {
       "name": "skill-deep-research",
       "version": "1.0.0",
-      "description": "Deep research agent skill. Use when the user needs thorough, scientific, truth-seeking research on any topic -- investigating claims, finding primary sources, synthesizing evidence, producing cited re",
+      "description": "Deep research agent skill. Use when the user needs thorough, scientific, truth-seeking research on any topic -- investigating claims, finding primary ",
       "type": "ocx:skill",
       "files": [
         "skills/skill-deep-research"
-      ]
+      ],
+      "repository": {
+        "type": "git",
+        "url": "https://github.com/kortix-ai/kortix-ocx-registry.git"
+      }
     }
   }
 }

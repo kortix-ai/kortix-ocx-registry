@@ -1,6 +1,7 @@
 {
   "name": "skill-elevenlabs",
-  "description": "ElevenLabs audio generation — text-to-speech, voice cloning, and sound effects. Use this skill any time the agent needs to: convert text to spoken audio, narrate documents or content, generate voice",
+  "description": "ElevenLabs audio generation \u2014 text-to-speech, voice cloning, and sound effects. Use this skill any time the agent needs to: convert text to spoken aud",
+  "repository": "https://github.com/kortix-ai/kortix-ocx-registry.git",
   "dist-tags": {
     "latest": "1.0.0"
   },
@@ -8,11 +9,15 @@
     "1.0.0": {
       "name": "skill-elevenlabs",
       "version": "1.0.0",
-      "description": "ElevenLabs audio generation — text-to-speech, voice cloning, and sound effects. Use this skill any time the agent needs to: convert text to spoken audio, narrate documents or content, generate voice",
+      "description": "ElevenLabs audio generation \u2014 text-to-speech, voice cloning, and sound effects. Use this skill any time the agent needs to: convert text to spoken aud",
       "type": "ocx:skill",
       "files": [
         "skills/skill-elevenlabs"
-      ]
+      ],
+      "repository": {
+        "type": "git",
+        "url": "https://github.com/kortix-ai/kortix-ocx-registry.git"
+      }
     }
   }
 }

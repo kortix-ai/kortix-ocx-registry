@@ -1,6 +1,7 @@
 {
   "name": "skill-domain-research",
-  "description": "Free domain research and availability checking. No API keys or credentials required. Uses RDAP (1195+ TLDs) with whois CLI fallback for universal coverage. Checks if domains are available, searches ke",
+  "description": "Free domain research and availability checking. No API keys or credentials required. Uses RDAP (1195+ TLDs) with whois CLI fallback for universal cove",
+  "repository": "https://github.com/kortix-ai/kortix-ocx-registry.git",
   "dist-tags": {
     "latest": "1.0.0"
   },
@@ -8,11 +9,15 @@
     "1.0.0": {
       "name": "skill-domain-research",
       "version": "1.0.0",
-      "description": "Free domain research and availability checking. No API keys or credentials required. Uses RDAP (1195+ TLDs) with whois CLI fallback for universal coverage. Checks if domains are available, searches ke",
+      "description": "Free domain research and availability checking. No API keys or credentials required. Uses RDAP (1195+ TLDs) with whois CLI fallback for universal cove",
       "type": "ocx:skill",
       "files": [
         "skills/skill-domain-research"
-      ]
+      ],
+      "repository": {
+        "type": "git",
+        "url": "https://github.com/kortix-ai/kortix-ocx-registry.git"
+      }
     }
   }
 }

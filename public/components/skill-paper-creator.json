@@ -1,6 +1,7 @@
 {
   "name": "skill-paper-creator",
-  "description": "Scientific paper writing in LaTeX -- full pipeline from structure to compiled PDF. TDD-driven: every section is compiled and verified before moving to the next. Covers project scaffolding, citation ma",
+  "description": "Scientific paper writing in LaTeX -- full pipeline from structure to compiled PDF. TDD-driven: every section is compiled and verified before moving to",
+  "repository": "https://github.com/kortix-ai/kortix-ocx-registry.git",
   "dist-tags": {
     "latest": "1.0.0"
   },
@@ -8,11 +9,15 @@
     "1.0.0": {
       "name": "skill-paper-creator",
       "version": "1.0.0",
-      "description": "Scientific paper writing in LaTeX -- full pipeline from structure to compiled PDF. TDD-driven: every section is compiled and verified before moving to the next. Covers project scaffolding, citation ma",
+      "description": "Scientific paper writing in LaTeX -- full pipeline from structure to compiled PDF. TDD-driven: every section is compiled and verified before moving to",
       "type": "ocx:skill",
       "files": [
         "skills/skill-paper-creator"
-      ]
+      ],
+      "repository": {
+        "type": "git",
+        "url": "https://github.com/kortix-ai/kortix-ocx-registry.git"
+      }
     }
   }
 }
