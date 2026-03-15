@@ -3,6 +3,7 @@ name: Update submodule pointer in computer
 on:
   push:
     branches: [master]
+  workflow_dispatch:
 
 jobs:
   update-submodule:
@@ -14,6 +15,7 @@ jobs:
           repository: kortix-ai/computer
           token: ${{ secrets.SUBMODULE_UPDATE_PAT }}
           submodules: false
+          fetch-depth: 0
 
       - name: Update kortix-ocx-registry pointer
         run: |
@@ -22,9 +24,9 @@ jobs:
           git submodule update --init packages/kortix-ocx-registry
           cd packages/kortix-ocx-registry
           git fetch origin master
-          git checkout origin/master
+          git checkout $(git rev-parse origin/master)
           cd ..
           git add packages/kortix-ocx-registry
-          git diff --cached --quiet && echo "No change" && exit 0
+          git diff --cached --quiet && echo "Submodule already up to date" && exit 0
           git commit -m "chore: update kortix-ocx-registry submodule to ${{ github.sha }}"
           git push
