@@ -1,0 +1,30 @@
+name: Update submodule pointer in computer
+
+on:
+  push:
+    branches: [master]
+
+jobs:
+  update-submodule:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout computer
+        uses: actions/checkout@v4
+        with:
+          repository: kortix-ai/computer
+          token: ${{ secrets.SUBMODULE_UPDATE_PAT }}
+          submodules: false
+
+      - name: Update kortix-ocx-registry pointer
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git submodule update --init packages/kortix-ocx-registry
+          cd packages/kortix-ocx-registry
+          git fetch origin master
+          git checkout origin/master
+          cd ..
+          git add packages/kortix-ocx-registry
+          git diff --cached --quiet && echo "No change" && exit 0
+          git commit -m "chore: update kortix-ocx-registry submodule to ${{ github.sha }}"
+          git push
